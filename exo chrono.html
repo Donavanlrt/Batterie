@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo chronomètre</title>
+
+<style>
+
+    chrono {
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      margin: 50px;
+    }
+
+    buttons {
+       background-color: red;
+
+    }
+</style>
+
+
+</head>
+
+<body>
+
+<div>
+    <h1><chrono id >00:00:00</chrono></h1>
+</div>
+
+        <div id>
+        <button id="strt">Démarrer</button>
+        <button id="stp">Arrêter</button>
+        <button id="rst">Remettre à zéro</button>
+        </div>
+
+
+<style>
+
+</style>
+
+<script>
+
+    var h1 = document.getElementsByTagName('h1');
+    var start = document.getElementsById('strt');
+    var stp = document.getElementsById('stp');
+    var reset = document.getElementsById('rst');
+    var sec = 0;
+    var min = 0;
+    var hrs = 0;
+
+// Le bouton démarrer lancera le chrono, il faudra incrémenter de 1 une variable sec. On devra répéter cela toutes les secondes. Bien sûr, arrivé à 60, on devra remettre sec à 0 et incrémenter min. On fera la même chose pour les heures.
+
+// Le bouton arrêter devra stopper le chronomètre mais le temps écoulé restera. Il faudra trouver un moyen d'arrêter la répétition chaque seconde.
+</script>
+</body>
+</html>
